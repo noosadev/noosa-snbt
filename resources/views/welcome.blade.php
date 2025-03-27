@@ -40,7 +40,7 @@
     </h2>
 
     <form role="form" method="POST" action="{{ route('login') }}">
-      {{ csrf_field() }}
+      <!-- {{ csrf_field() }} -->
       <div class="form-group has-feedback {{ $errors->has('email') ? ' has-error' : '' }}">
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
       email</label>
