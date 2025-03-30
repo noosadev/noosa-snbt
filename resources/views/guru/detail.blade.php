@@ -5,7 +5,7 @@
   <ol class="breadcrumb">
     <li><a href="{{ url('/home') }}"><i class="fa fa-home"></i> Home</a></li>
     <li><a href="{{ url('/master/guru') }}">Guru</a></li>
-    <li class="active">Detail</li>
+    <li class="active">Details</li>
   </ol>
 @endsection
 @section('content')
